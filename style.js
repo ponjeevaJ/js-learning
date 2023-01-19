@@ -31,8 +31,13 @@
 // const ans=age(2002,'jeeva');
 // console.log(ans);
 // calling more than one function with help help of other function:
-const fruit =function(apple,orange){
-    const picapple=pices(apple);
-    onst picapple=pices(orange);
-    fdnh
-}
+// const pices=function(size){
+//     return size*4;
+// } 
+// const fruit =function(apple,orange){
+//     const picapple=pices(apple);
+//     const picorange=pices(orange);
+//     return `the juice with ${picapple} pice of apple and the juice with ${picorange} we will do`
+// }
+// const list=fruit(2,4);
+// console.log(list);
