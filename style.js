@@ -34,4 +34,5 @@
 const fruit =function(apple,orange){
     const picapple=pices(apple);
     onst picapple=pices(orange);
+    fdnh
 }
