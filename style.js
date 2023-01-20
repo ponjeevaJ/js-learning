@@ -41,3 +41,36 @@
 // }
 // const list=fruit(2,4);
 // console.log(list);
+// array function
+// const name1=function(year){
+//     return 2022-year;
+// }
+// const year1=[2002,2003,2004,2001];
+// for(let i=0;i<year1.length;i++)
+// {
+// console.log(name1(year1[i]));
+// }
+//array challange
+// const age=function(value){
+// return value>=50 &&value <=300 ? value* 0.15 :value*0.5;
+// }
+// const val=[444,22];
+// const con=[age(val[0]),age(val[1])]
+// console.log(val,con);
+// make an object and display it  ..............
+// const list ={firstname:'jeeva',age:20,job:'student'};
+// console.log(list.firstname);
+// console.log(list.job);
+// console.log(list.age);
+// const na='name';
+// console.log(list['first'+na]);
+// use promt and the detail from the user and display to the output............
+// const intin=prompt('firstname,age,job');
+// if(list[intin])
+// {
+//     console.log(list[intin]);
+// }
+// else
+// {
+//     console.log("enter the correct value")
+// }
