@@ -70,7 +70,7 @@
 // {
 //     console.log(list[intin]);
 // }
-// elsefews
+// else
 // {
 //     console.log("enter the correct value")
 //}
