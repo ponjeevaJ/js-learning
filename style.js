@@ -79,5 +79,5 @@
 // list['google']='www.google';
 // console.log(list);
 //  it is used to show the data from the obj by calling the one by one
-const list ={firstname:'jeeva',age:20,job:'student',friend:['jeeva','tamil','nithin']};
-console.log(`list has deteil and the length is${list.friend.length} and his friend name is ${list.friend[0]}`);
+// const list ={firstname:'jeeva',age:20,job:'student',friend:['jeeva','tamil','nithin']};
+// console.log(`list has deteil and the length is${list.friend.length} and his friend name is ${list.friend[0]} and his age is ${list.age}`);
