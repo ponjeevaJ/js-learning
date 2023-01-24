@@ -80,4 +80,19 @@
 // console.log(list);
 //  it is used to show the data from the obj by calling the one by one
 // const list ={firstname:'jeeva',age:20,job:'student',friend:['jeeva','tamil','nithin']};
-// console.log(`list has deteil and the length is${list.friend.length} and his friend name is ${list.friend[0]} and his age is ${list.age}`);
+// console.log(`list has deteil and the length is${list.friend.length} and his friend name is ${list.friend[0]} and his age is ${list.age}`)
+// using the object use function in this
+const list ={firstname:'jeeva',
+age:20,
+job:'student',
+friend:['jeeva','tamil','nithin'],
+driver:true,
+// function use inbuild.....
+objfun:function(year){
+    return year-2002;
+}
+}
+console.log(list.objfun(2022));
+console.log(list['objfun'](2022));
+list["naveen"]="karthi";
+console.log(list);
