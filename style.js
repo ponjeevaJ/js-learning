@@ -82,17 +82,34 @@
 // const list ={firstname:'jeeva',age:20,job:'student',friend:['jeeva','tamil','nithin']};
 // console.log(`list has deteil and the length is${list.friend.length} and his friend name is ${list.friend[0]} and his age is ${list.age}`)
 // using the object use function in this
-const list ={firstname:'jeeva',
+// const list ={firstname:'jeeva',
+// age:20,
+// job:'student',
+// friend:['jeeva','tamil','nithin'],
+// driver:true,
+// // function use inbuild.....
+// objfun:function(){
+//     this.agee= 41-this.age;
+//     return this.agee;
+//     }
+// };
+//console.log(list.objfun(2022));
+//console.log(list['objfun'](2022));
+// list["naveen"]="karthi";
+// console.log(list);
+//// display the answer in on call in the function
+//console.log(list.objfun);
+// console.log(list.agee);
+// console.log(list.agee);
+// console.log(list.agee);
+////program
+const pro ={firstname:'jeeva',
 age:20,
-job:'student',
-friend:['jeeva','tamil','nithin'],
 driver:true,
 // function use inbuild.....
-objfun:function(year){
-    return year-2002;
-}
-}
-console.log(list.objfun(2022));
-console.log(list['objfun'](2022));
-list["naveen"]="karthi";
-console.log(list);
+di:function(){
+    return `my name is ${pro.firstname} i have drive lissance ${this.driver ? 'yes' :'no'}`;
+    }
+    
+    };
+console.log(pro.di());
