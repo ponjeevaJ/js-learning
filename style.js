@@ -110,6 +110,5 @@ driver:true,
 di:function(){
     return `my name is ${pro.firstname} i have drive lissance ${this.driver ? 'yes' :'no'}`;
     }
-    
     };
 console.log(pro.di());
