@@ -103,12 +103,54 @@
 // console.log(list.agee);
 // console.log(list.agee);
 ////program
-const pro ={firstname:'jeeva',
-age:20,
-driver:true,
+// const pro ={firstname:'jeeva',
+// age:20,
+// driver:true,
 // function use inbuild.....
-di:function(){
-    return `my name is ${pro.firstname} i have drive lissance ${this.driver ? 'yes' :'no'}`;
-    }
-    };
-console.log(pro.di());
+// di:function(){
+//     return `my name is ${pro.firstname} i have drive lissance ${this.driver ? 'yes' :'no'}`;
+//     }
+//     };
+// console.log(pro.di());
+//// challange program with obj......
+// const jeeva={
+// weight:72,
+// hight:176,
+// bmi:function(){
+//     this.bmi=this.weight/this.hight**2;
+//     return this.bmi;
+// }
+// };
+// const tamil={
+//     weight:60,
+//     hight:160,
+//     bmi:function(){
+//         this.bmi=this.weight/this.hight**2;
+//         return this.bmi;
+//     }
+//     }
+//     jeeva.bmi();
+//     tamil.bmi();
+// console.log(jeeva.bmi,tamil.bmi);
+// if(jeeva.bmi>tamil.bmi){
+//     console.log(`jeeva is higher ${jeeva.bmi}`);
+// }
+// else if(tamil.bmi>jeeva.bmi){
+//     console.log(`tamil is higher ${tamil.bmi}`) ;
+// }
+// /////  for loop function............
+// for(let i=1;i<=10;i++){
+//     console.log(`haiii jeeva.. ${i}`);
+// }
+///// loop array and breaking, continue........
+const jeeva=['hello',2002,'eat','byee',['jeeva','tamil','nithin']];
+// console.log(jeeva[0]);
+// console.log(jeeva[1]);
+// console.log(jeeva[4][0]);
+jeeva.pop();  // delete the element at last
+jeeva.push(55)  // add element at last
+jeeva.shift() // remove the 1st element
+jeeva.unshift("jeeva")// add the value at first element at 1at poss
+for(let i=0;i<jeeva.length;i++){
+    console.log(jeeva[i]);
+}
