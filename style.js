@@ -143,14 +143,63 @@
 //     console.log(`haiii jeeva.. ${i}`);
 // }
 ///// loop array and breaking, continue........
-const jeeva=['hello',2002,'eat','byee',['jeeva','tamil','nithin']];
+//const jeeva=['hello',2002,'eat','byee',['jeeva','tamil','nithin']];
 // console.log(jeeva[0]);
 // console.log(jeeva[1]);
 // console.log(jeeva[4][0]);
-jeeva.pop();  // delete the element at last
-jeeva.push(55)  // add element at last
-jeeva.shift() // remove the 1st element
-jeeva.unshift("jeeva")// add the value at first element at 1at poss
-for(let i=0;i<jeeva.length;i++){
-    console.log(jeeva[i]);
+// jeeva.pop();  // delete the element at last
+// jeeva.push(55)  // add element at last
+// jeeva.shift() // remove the 1st element
+// jeeva.unshift("jeeva")// add the value at first element at 1at poss
+// const value=[];
+// for(let i=0;i<jeeva.length;i++){
+//     console.log(jeeva[i]);
+//     // type of arrray... 
+//     value[i]=typeof jeeva[i];
+// }
+//console.log(value);
+// age calculator.........................
+// const year=[2002,2003,2004,2005];
+// const age=[];
+// for (let j=0;j<year.length;j++){
+//       age.push(2024-year[j]);
+// }
+// console.log(age);
+//continue and break.........
+// const jeeva=['hello',2002,'eat','byee',['jeeva','tamil','nithin']];
+// const name1=[]
+// for(let i=0;i<jeeva.length;i++){
+//     if(typeof jeeva[i]!=='string')continue
+//        name1.push(jeeva[i]) 
+    
+// }
+// console.log(name1);
+// let arr=[10,20,30,40,50,60,70];
+// for(let i=0;i<arr.length;i++){
+// if(arr[i]===40)
+// {
+//     continue;
+// }
+// else{
+//     console.log(arr[i]);
+// }
+// }
+// while loppp..................
+// let a=10
+// while(a>0){
+//     if(a%2==0){
+//     console.log(`the even number is :${a}`);
+//     }
+//    a--;
+// }
+//// program...............
+
+
+const val=function(temp){
+let max=temp[0];
+for(let i=0;i<temp.length;i++){
+    if(max<temp[i]) max=temp[i];
 }
+console.log(max);
+};
+val([1,4,3]);
