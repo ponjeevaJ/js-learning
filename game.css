@@ -6,13 +6,24 @@
     position: absolute;
     top: 10px;
 }
-.ques{
-    width: 10px;
-    height: 20px;
+.result{
+    position: absolute;
+    bottom: 250px;
+    right: 300px;
 }
-.main{
+.ques{
+    border: 5px solid greenyellow ;
+    padding: 50px;
+    font-size: 120px;
+}
+.box1{
     width: 20;
     height: 20;
+    margin-top: 100px;
+}
+.main{
+    position: absolute;
+    left: 200px;
     margin-top: 100px;
 }
 .num[type="number"]

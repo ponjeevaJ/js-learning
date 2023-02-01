@@ -203,3 +203,9 @@
 // console.log(max);
 // };
 // val([1,4,3]);
+// console.log(document.querySelector('.main').textContent);
+// console.log(document.querySelector('.main').textContent='....correct number....');
+// // write the guse number change and score change..
+// console.log(document.querySelector('.ques').textContent='13');
+// console.log(document.querySelector('.scrhi').textContent=20);
+///----------------------++++++++===start
