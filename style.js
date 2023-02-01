@@ -195,11 +195,11 @@
 //// program...............
 
 
-const val=function(temp){
-let max=temp[0];
-for(let i=0;i<temp.length;i++){
-    if(max<temp[i]) max=temp[i];
-}
-console.log(max);
-};
-val([1,4,3]);
+// const val=function(temp){
+// let max=temp[0];
+// for(let i=0;i<temp.length;i++){
+//     if(max<temp[i]) max=temp[i];
+// }
+// console.log(max);
+// };
+// val([1,4,3]);
