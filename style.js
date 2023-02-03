@@ -209,6 +209,11 @@
 // console.log(document.querySelector('.ques').textContent='13');
 // console.log(document.querySelector('.scrhi').textContent=20);
 ///----------------------++++++++===start
-document.querySelector('.click').addEventListener('cilck',function() {
-    console.log(document.querySelector('num'));
-})
+document.querySelector('.but').addEventListener('click',function() {
+   const a=Number(document.querySelector('.num').value);
+   console.log(a);
+//   console.log(document.querySelector('.main').textContent='....correct number....');
+    if(!a){
+    document.querySelector('.cc').textContent='enter the value';   
+    }
+});
