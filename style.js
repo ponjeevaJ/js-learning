@@ -209,3 +209,6 @@
 // console.log(document.querySelector('.ques').textContent='13');
 // console.log(document.querySelector('.scrhi').textContent=20);
 ///----------------------++++++++===start
+document.querySelector('.click').addEventListener('cilck',function() {
+    console.log(document.querySelector('num'));
+})
