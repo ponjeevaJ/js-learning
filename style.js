@@ -231,7 +231,7 @@ document.querySelector('.but').addEventListener('click',function()
         {
         console.log(document.querySelector('.higsc').textContent=score);
         }
-         document.querySelector('body').style.backgroundColor=' rgb(97, 175, 18)';
+       //  document.querySelector('body').style.backgroundColor=' rgb(97, 175, 18)';
     }
     else if( a>ans )
     {
