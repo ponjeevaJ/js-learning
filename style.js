@@ -208,66 +208,71 @@
 // // write the guse number change and score change..
 // console.log(document.querySelector('.ques').textContent='13');
 // console.log(document.querySelector('.scrhi').textContent=20);
-///----------------------++++++++===start
-let ans= Math.trunc(Math.random()*20);
-console.log(ans);
-let score=10;
-let higscr=0;
+///----------------------++++++++===startproject////////////////////////////////===============
+// let ans= Math.trunc(Math.random()*20);
+// console.log(ans);
+// let score=10;
+// let higscr=0;
 
-document.querySelector('.but').addEventListener('click',function() 
-{
-   const a=Number(document.querySelector('.num').value);
-   console.log(a);
-//   console.log(document.querySelector('.main').textContent='....correct number....');
-    if(!a)
-    {
-    document.querySelector('.cc').textContent='Enter the value it is Empty';   
-    }
-    else if( a=== ans )
-    {
-        console.log(document.querySelector('.cc').textContent='It is The correct Number');
-        console.log(document.querySelector('.ques').textContent=ans);
-        if(score>higscr)
-        {
-        console.log(document.querySelector('.higsc').textContent=score);
-        }
-       // document.querySelector('body').style.backgroundColor=' rgb(97, 175, 18)';
-    }
-    else if( a>ans )
-    {
-        if(score>1)
-        {
-        console.log(document.querySelector('.cc').textContent='Enter The Less Number');
-        score--;
-        console.log(document.querySelector('.scrhi').textContent=score);
-        }
-        else
-        {
-            console.log(document.querySelector('.cc').textContent='You loss... The Game')
-            console.log(document.querySelector('.scrhi').textContent=0);
-        }
-    }
-    else if( a<ans )
-    {
-        if(score>1)
-        {
-        console.log(document.querySelector('.cc').textContent='Enter The Large Number');
-        score--;
-        console.log(document.querySelector('.scrhi').textContent=score);
-        console.log(document.querySelector('.scrhi').textContent=0);
-        }
-        else
-        {
-            console.log(document.querySelector('.cc').textContent='You loss... The Game')
-        }
-    }
-    document.querySelector('.aga').addEventListener('click',function(){
-         ans= Math.trunc(Math.random()*20);
-        score=20;
-        console.log(document.querySelector('.cc').textContent='Start checking...');
-        console.log(document.querySelector('.scrhi').textContent=score);
-        console.log(document.querySelector('.ques').textContent='?');
-        const a=Number(document.querySelector('.num').value='');
+// document.querySelector('.but').addEventListener('click',function() 
+// {
+//    const a=Number(document.querySelector('.num').value);
+//    console.log(a);
+// //   console.log(document.querySelector('.main').textContent='....correct number....');
+//     if(!a)
+//     {
+//     document.querySelector('.cc').textContent='Enter the value it is Empty';   
+//     }
+//     else if( a=== ans )
+//     {
+//         console.log(document.querySelector('.cc').textContent='It is The correct Number');
+//         console.log(document.querySelector('.ques').textContent=ans);
+//         if(score>higscr)
+//         {
+//         console.log(document.querySelector('.higsc').textContent=score);
+//         }
+//        // document.querySelector('body').style.backgroundColor=' rgb(97, 175, 18)';
+//     }
+//     else if( a>ans )
+//     {
+//         if(score>1)
+//         {
+//         console.log(document.querySelector('.cc').textContent='Enter The Less Number');
+//         score--;
+//         console.log(document.querySelector('.scrhi').textContent=score);
+//         }
+//         else
+//         {
+//             console.log(document.querySelector('.cc').textContent='You loss... The Game')
+//             console.log(document.querySelector('.scrhi').textContent=0);
+//         }
+//     }
+//     else if( a<ans )
+//     {
+//         if(score>1)
+//         {
+//         console.log(document.querySelector('.cc').textContent='Enter The Large Number');
+//         score--;
+//         console.log(document.querySelector('.scrhi').textContent=score);
+//         console.log(document.querySelector('.scrhi').textContent=0);
+//         }
+//         else
+//         {
+//             console.log(document.querySelector('.cc').textContent='You loss... The Game')
+//         }
+//     }
+//     document.querySelector('.aga').addEventListener('click',function(){
+//          ans= Math.trunc(Math.random()*20);
+//         score=20;
+//         console.log(document.querySelector('.cc').textContent='Start checking...');
+//         console.log(document.querySelector('.scrhi').textContent=score);
+//         console.log(document.querySelector('.ques').textContent='?');
+//         const a=Number(document.querySelector('.num').value='');
 
-    })
-});
+//     })
+// });
+const dis=document.querySelector('.mess');
+const close=document.querySelector('.closebut');
+const open=document.querySelector('.openmess');
+const value=document.querySelectorAll('.but');
+console.log(value);

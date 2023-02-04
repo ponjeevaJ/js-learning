@@ -1,4 +1,4 @@
-*{
+/* *{
     background-color: aqua;
     text-align: center;
 }
@@ -47,4 +47,32 @@
     height: 50px;
     background-color: aliceblue;
     cursor: pointer;
+} */
+*{
+    /* margin:0; */
+    background-color: aqua;
+    /* padding:0; */
+    box-sizing: border-box;
+}
+.space{
+    display: flex;
+    
+    justify-content: space-between;
+    /* border: 5px solid; */
+    width: 500px;
+    margin-left: 450px;
+}
+.but{
+    width: 100px;
+    height: 50px;
+    border-radius: 90px;
+    cursor: pointer;
+}
+.mess{
+    border: 5px solid;
+    display: none;
+}
+.closebut{
+    cursor: pointer;
+    margin-left: 450px;
 }
