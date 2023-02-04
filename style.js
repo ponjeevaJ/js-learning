@@ -211,7 +211,7 @@
 ///----------------------++++++++===start
 let ans= Math.trunc(Math.random()*20);
 console.log(ans);
-let score=20;
+let score=10;
 let higscr=0;
 
 document.querySelector('.but').addEventListener('click',function() 
@@ -231,7 +231,7 @@ document.querySelector('.but').addEventListener('click',function()
         {
         console.log(document.querySelector('.higsc').textContent=score);
         }
-       //  document.querySelector('body').style.backgroundColor=' rgb(97, 175, 18)';
+       // document.querySelector('body').style.backgroundColor=' rgb(97, 175, 18)';
     }
     else if( a>ans )
     {
@@ -244,6 +244,7 @@ document.querySelector('.but').addEventListener('click',function()
         else
         {
             console.log(document.querySelector('.cc').textContent='You loss... The Game')
+            console.log(document.querySelector('.scrhi').textContent=0);
         }
     }
     else if( a<ans )
@@ -253,6 +254,7 @@ document.querySelector('.but').addEventListener('click',function()
         console.log(document.querySelector('.cc').textContent='Enter The Large Number');
         score--;
         console.log(document.querySelector('.scrhi').textContent=score);
+        console.log(document.querySelector('.scrhi').textContent=0);
         }
         else
         {
