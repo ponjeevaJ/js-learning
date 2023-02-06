@@ -271,10 +271,14 @@
 
 //     })
 // });
+
 const dis=document.querySelector('.mess');
 const close=document.querySelector('.closebut');
 const open=document.querySelector('.openmess');
 const value=document.querySelectorAll('.but');
+const name1= function (){
+    dis.classList.add('mess');
+};
 for(let i=0;i<value.length;i++){
 value[i].addEventListener('click',function(){
 dis.classList.remove('mess');
@@ -283,6 +287,18 @@ dis.classList.remove('mess');
 close.addEventListener('click',function(){
 dis.classList.add('mess');
 });
-open.addEventListener('click',function(){
-    open.classList.add('mess');
+//////////// all click
+dis.addEventListener('click',function(){
+    dis.classList.add('mess');
     });
+document.addEventListener('keydown',function(ev){
+    // dis.classList.remove('mess');
+   console.log(ev.key);
+    //console.log('bhbh');
+   // dis.classList.remove('mess');
+    if(ev.key==='Enter'){
+        if(!dis.classList.contains('mess')){
+        name1();
+        }
+    }
+});
