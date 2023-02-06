@@ -275,4 +275,14 @@ const dis=document.querySelector('.mess');
 const close=document.querySelector('.closebut');
 const open=document.querySelector('.openmess');
 const value=document.querySelectorAll('.but');
-console.log(value);
+for(let i=0;i<value.length;i++){
+value[i].addEventListener('click',function(){
+dis.classList.remove('mess');
+})
+};
+close.addEventListener('click',function(){
+dis.classList.add('mess');
+});
+open.addEventListener('click',function(){
+    open.classList.add('mess');
+    });
